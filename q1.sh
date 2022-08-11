@@ -8,4 +8,4 @@ then
 fi
 a=`expr $a / 2`
 #echo $a
-awk 'NR=='$a' {print $1}' data1 
+awk 'NR=='$a' {print $0}' $1 
